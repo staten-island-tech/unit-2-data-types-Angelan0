@@ -12,9 +12,36 @@ print(values[2])
 print(values[5])
 print(values[8]) """
 
-x = "this is a thing"
+""" x = "this is a thing"
 y= x.split( )
 z = y[0]
 print(y)
-print(z)
+print(z) """
 
+""" day_of_week = input("what day is it?")
+if day_of_week == "Friday":
+    print("correct")
+else:
+    print("incorrect") """
+
+""" x = "test"
+print(f"hello {x}") """
+
+""" temp = 75
+if temp > 73:
+    print('warm')
+elif temp == 73:
+    print('perfect')
+else:
+    print('cold') """
+
+""" x=10
+if 0 == x%2:
+    print('even')
+else:
+    print('odd') """
+
+values=[0.25,0.20,0.15,0]
+bill = input('how was the service')
+if bill == great:
+    print(values[0])
