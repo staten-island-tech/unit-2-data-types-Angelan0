@@ -41,7 +41,27 @@ if 0 == x%2:
 else:
     print('odd') """
 
-values=[0.25,0.20,0.15,0]
-bill = input('how was the service')
-if bill == great:
-    print(values[0])
+""" bill=float(6.4)
+service = input('how was the service?')
+if service == "great":
+    bill=bill*1.25
+    print(bill)
+elif service == "good":
+    bill=bill*1.2
+    print(bill)
+elif service == "okay":
+    bill=bill*1.15
+    print(bill)
+elif service == "bad":
+    bill=bill*1
+    print(bill) """
+
+x=6
+print(1)
+if 0 == x%2:
+    print(2)
+if 0 == x%3:
+    print(3)
+if 0 == x%4:
+    print(4)
+print(x)
