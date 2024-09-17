@@ -18,6 +18,11 @@ z = y[0]
 print(y)
 print(z) """
 
+sentence=input("write a sentence")
+y= sentence.split( )
+z=
+print(f"There are {z} words")
+
 """ day_of_week = input("what day is it?")
 if day_of_week == "Friday":
     print("correct")
@@ -41,7 +46,7 @@ if 0 == x%2:
 else:
     print('odd') """
 
-""" bill=float(6.4)
+""" bill=float(8)
 service = input('how was the service?')
 if service == "great":
     bill=bill*1.25
@@ -56,12 +61,13 @@ elif service == "bad":
     bill=bill*1
     print(bill) """
 
-x=6
+number=input('input a number')
+
 print(1)
+list_factor=[2,3,4,5,6,7,8,9,10]
+for i in list_factor:
+    print(i)
+
 if 0 == x%2:
-    print(2)
-if 0 == x%3:
-    print(3)
-if 0 == x%4:
-    print(4)
-print(x)
+    print()
+print(number)
