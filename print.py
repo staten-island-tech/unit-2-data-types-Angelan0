@@ -18,11 +18,6 @@ z = y[0]
 print(y)
 print(z) """
 
-sentence=input("write a sentence")
-y= sentence.split( )
-z=
-print(f"There are {z} words")
-
 """ day_of_week = input("what day is it?")
 if day_of_week == "Friday":
     print("correct")
@@ -61,13 +56,13 @@ elif service == "bad":
     bill=bill*1
     print(bill) """
 
-number=input('input a number')
+number=input('input a number ')
 
-print(1)
-list_factor=[2,3,4,5,6,7,8,9,10]
+
+
+""" list_factor=[1,2,3,4]
 for i in list_factor:
     print(i)
-
-if 0 == x%2:
-    print()
-print(number)
+for i in range(20):
+    if 0 == x%i:
+        print(i) """
