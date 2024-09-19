@@ -56,13 +56,16 @@ elif service == "bad":
     bill=bill*1
     print(bill) """
 
-number=input('input a number ')
-
-
-
-""" list_factor=[1,2,3,4]
-for i in list_factor:
-    print(i)
+y=[1,2,3,4]
+number=int(input('input a number '))
 for i in range(20):
-    if 0 == x%i:
-        print(i) """
+    if number in y:
+        if 0 == number%y:
+            print(y)
+
+
+
+""" y=[1,2,3,4]
+for i in range(20):
+    if 0 == number%y:
+        print(y) """
