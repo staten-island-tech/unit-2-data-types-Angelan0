@@ -18,6 +18,14 @@ z = y[0]
 print(y)
 print(z) """
 
+""" sent=input("sentence ")
+word=sent.split( )
+count=0
+for i in word:
+    count=count+1
+    print(f"there are {count} words") """
+
+
 """ day_of_week = input("what day is it?")
 if day_of_week == "Friday":
     print("correct")
@@ -56,16 +64,10 @@ elif service == "bad":
     bill=bill*1
     print(bill) """
 
-y=[1,2,3,4]
-number=int(input('input a number '))
-for i in range(20):
-    if number in y:
-        if 0 == number%y:
-            print(y)
-
-
-
-""" y=[1,2,3,4]
-for i in range(20):
-    if 0 == number%y:
-        print(y) """
+num=int(input('input a number '))
+def factors(x):
+    print(f"The factors of {x} are:")
+    for i in range(i):
+        if x%i == 0:
+            print(i)
+factors(num)
