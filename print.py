@@ -25,7 +25,6 @@ for i in word:
     count=count+1
     print(f"there are {count} words") """
 
-
 """ day_of_week = input("what day is it?")
 if day_of_week == "Friday":
     print("correct")
@@ -67,8 +66,16 @@ elif service == "bad":
 """ num = int(input('Input a number: '))
 def factors(x):
     print(f"The factors of {x} are:")
-    for i in range(1, x + 1):
+    for i in range(1,x + 1):
         if x % i == 0:
             print(i)
 factors(num) """
 
+num = int(input('Input a number: '))
+number = int(input('Input another number: '))
+def gcf(x,y):
+    print(f"The greatest common factor of {x,y}:")
+    for i in range(x+1,y+1):
+        if x%i==0 and y%1:
+            print(i)
+gcf(num,number)
