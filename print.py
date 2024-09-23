@@ -63,11 +63,12 @@ elif service == "okay":
 elif service == "bad":
     bill=bill*1
     print(bill) """
-
-num=int(input('input a number '))
+ 
+""" num = int(input('Input a number: '))
 def factors(x):
     print(f"The factors of {x} are:")
-    for i in range(i):
-        if x%i == 0:
+    for i in range(1, x + 1):
+        if x % i == 0:
             print(i)
-factors(num)
+factors(num) """
+
